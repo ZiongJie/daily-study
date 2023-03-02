@@ -1,0 +1,8 @@
+内容回顾：
+1、首先讲了ReentrantLock和synchronized一个区别，ReentrantLock更灵活，更方便；
+2、讲了CountDownLatch的用法，就是倒计时，什么时候计数完了，门闩打开，程序继续往下执行；
+3、CycliBarrier一个栅栏，循环使用，什么时候人满了，栅栏放倒大家冲过去；
+4、Phaser分阶段的栅栏；
+5、ReadWriteLock读写锁，重点掌握；
+6、Semaphore限流用的；
+7、Exchange两个线程之间互相交换数据；
