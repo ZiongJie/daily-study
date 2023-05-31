@@ -17,6 +17,16 @@ public class T14_TransferQueue {
         }).start();
 
         strs.transfer("aaa");
+
+        // strs.put("aaa");
+
+        /*new Thread(() -> {
+            try {
+                System.out.println(strs.take());
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }).start();*/
     }
 
 
