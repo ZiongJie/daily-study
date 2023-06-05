@@ -1,3 +1,13 @@
+/**
+ * 线程池七个参数：
+ * 1、核心线程数
+ * 2、最大线程数
+ * 3、生存时间
+ * 4、生存时间单位
+ * 5、任务队列
+ * 6、线程工厂
+ * 7、拒绝策略
+ */
 package com.study.juc.seventh;
 
 import java.io.IOException;
